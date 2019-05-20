@@ -1,7 +1,7 @@
 derle:topla
 
 topla:main.o zaman.o pugixml.o
-	g++ ./lib/main.o ./lib/Zaman.o ./lib/pugixml.o -o Turki
+	g++ ./lib/main.o ./lib/zaman.o ./lib/pugixml.o -o Turki
 
 main.o:
 	g++ -I "./include" -c ./src/main.cpp -o ./lib/main.o

@@ -1,5 +1,5 @@
-#ifndef Zaman_h
-#define Zaman_h
+#ifndef HEADER_ZAMAN_HPP
+#define HEADER_ZAMAN_HPP
 
 #include <iostream>
 #include <string>
@@ -7,7 +7,7 @@
 #include "pugixml.hpp"
 
 
-class Zaman
+class zaman
 {
 public:
 	pugi::xml_document dosya;
@@ -39,8 +39,8 @@ public:
 	void vkt_karisik_gecici();
 	void sat_hrist_v_d();
 
-	Zaman();
-	~Zaman();
+	zaman();
+	~zaman();
 };
 
 #endif

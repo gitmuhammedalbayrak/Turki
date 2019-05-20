@@ -11,6 +11,9 @@
  * [Copyright (C) 2006-2018, by Arseny Kapoulkine (arseny.kapoulkine@gmail.com)]
  */
 
+#ifndef SOURCE_ZAMAN_CPP
+#define SOURCE_ZAMAN_CPP
+
 #include "zaman.hpp"
 
 
@@ -24,7 +27,7 @@ void zaman::tkvm_hrist_v_d()
 };
 void zaman::vkt_karisik_gecici()
 {
-	zaman::dosya_adresi = "include\\Vakitler.xml";
+	zaman::dosya_adresi = "include\\vakitler.xml";
 	zaman::dosya.load_file(zaman::dosya_adresi);
 	zaman::sehir = dosya.child("cityinfo");
 
@@ -71,6 +74,7 @@ zaman::zaman()
 zaman::~zaman()
 {
 }
+#endif
 
 /**
  
