@@ -25,6 +25,10 @@ Modern Saati; Klasik Türk Saati'ne döndürür. Sairen nâmı "Vasatî Saat"tir
     Turki
     ```
 
+## Çıktı
+
+<img align="center" src="https://github.com/MimBinFikret/Turki/blob/master/exp/export-0.png" />
+
 ## Katkıda Bulunma
 
 Herhangi bir sorunuz, öneriniz veya katkınız varsa, lütfen bir [Pull Talebi](https://github.com/kullanici/depoadi/pulls) göndermekten çekinmeyin. Yardımınız ve katkılarınız memnuniyetle karşılanacaktır!
