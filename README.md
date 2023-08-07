@@ -5,18 +5,18 @@ Modern Saati; Klasik Türk Saati'ne döndürür. Sairen nâmı "Vasatî Saat"tir
 ## Gereksinimler
 
 - make
-- gcc
+- g++
 
 ## Kullanım
 
 1. Çalışma klasörü içerisindeki `Makefile` dosyasını `make` ile çağırın.
-2. Make `gcc` ile derleme işlemini gerçekleştirip sonucu komut satırı ortamında döndürür.
+2. Make `g++` ile derleme işlemini gerçekleştirip sonucu komut satırı ortamında döndürür.
 
 ## Kurulum
 
 1. Bu depoyu yerel bir klasöre kopyalayın veya ZIP olarak indirin.
 2. Make yüklü değilse şu adresten yükleyin: `https://www.gnu.org/software/make/`
-2. GCC yüklü değilse şu adresten yükleyin: `https://gcc.gnu.org/`
+2. g++ yüklü değilse şu adresten yükleyin: `https://gcc.gnu.org/`
 4. Terminal veya komut istemcisini açın ve bu betiği çalıştırmak istediğiniz klasöre gidin.
 5. Aşağıdaki komutu çalıştırın:
 
