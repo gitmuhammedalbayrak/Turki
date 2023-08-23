@@ -12,7 +12,7 @@
  */
 
 
-#include "../include/zaman.hpp"
+#include "zaman.hpp"
 
 int main()
 {
