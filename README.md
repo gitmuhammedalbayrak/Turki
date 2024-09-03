@@ -1,38 +1,38 @@
 # Turki
 
-Modern Saati; Klasik Türk Saati'ne döndürür. Sairen nâmı "Vasatî Saat"tir, "Osmanlı Saati" dendiği de olmuştur. "İslam Saati" diye de bilinir.
+Converts Modern Time to Classical Turkish Time, reflecting the traditional system where the day ended at sunset, unlike the modern practice where the day transitions at midnight. This system is also known as "Vasatî Time."
 
-## Gereksinimler
+## Requirements
 
 - make
 - g++
 
-## Kullanım
+## Usage
 
-1. Çalışma klasörü içerisindeki `Makefile` dosyasını `make` ile çağırın.
-2. Make `g++` ile derleme işlemini gerçekleştirip sonucu komut satırı ortamında döndürür.
+1. Run the `Makefile` in the working directory using `make`.
+2. Make will compile the program using `g++` and return the result in the command line environment.
 
-## Kurulum
+## Installation
 
-1. Bu depoyu yerel bir klasöre kopyalayın veya ZIP olarak indirin.
-2. Make yüklü değilse şu adresten yükleyin: `https://www.gnu.org/software/make/`
-2. g++ yüklü değilse şu adresten yükleyin: `https://gcc.gnu.org/`
-4. Terminal veya komut istemcisini açın ve bu betiği çalıştırmak istediğiniz klasöre gidin.
-5. Aşağıdaki komutu çalıştırın:
+1. Clone this repository to a local directory or download it as a ZIP file.
+2. If `make` is not installed, install it from: `https://www.gnu.org/software/make/`
+3. If `g++` is not installed, install it from: `https://gcc.gnu.org/`
+4. Open a terminal or command prompt and navigate to the directory where you want to run this script.
+5. Run the following command:
 
     ```shell
     make
     Turki
     ```
 
-## Çıktı
+## Output
 
 <img align="center" src="https://github.com/MimBinFikret/Turki/blob/master/exp/export-0.png" />
 
-## Katkıda Bulunma
+## Contributing
 
-Herhangi bir sorunuz, öneriniz veya katkınız varsa, lütfen bir [Pull Talebi](https://github.com/kullanici/depoadi/pulls) göndermekten çekinmeyin. Yardımınız ve katkılarınız memnuniyetle karşılanacaktır!
+If you have any questions, suggestions, or contributions, please feel free to submit a [Pull Request](https://github.com/username/repositoryname/pulls). Your help and contributions are greatly appreciated!
 
-## Lisans
+## License
 
-Bu proje T1 Lisansı altında lisanslanmıştır. Detaylı bilgi için kaynak kodlarını inceleyebilirsiniz.
+This project is licensed under the T1 License. For more detailed information, please refer to the source code.
